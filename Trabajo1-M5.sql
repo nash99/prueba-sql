@@ -33,7 +33,7 @@ select asistentes,duracion,lugar,hora,dia,rut,identificador from capacitacion wh
 select rut,duracion,asistentes from capacitacion where duracion > 30 && duracion < 90 || asistentes < 10;
 select * from capacitacion where (dia = "lunes" || dia = "miercoles" || dia = "viernes") && asistentes > 50 && duracion < 30;
 
-/* 
+
 select * from capacitacion;
 drop table capacitacion;
-*/
+
